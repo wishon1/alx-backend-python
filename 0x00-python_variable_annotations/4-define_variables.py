@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Basic annotations - define variables:
     Defines and annotates variables with specified values.
