@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Basic annotations - concat:
     type-annotated function concat that takes a string str1 and a string

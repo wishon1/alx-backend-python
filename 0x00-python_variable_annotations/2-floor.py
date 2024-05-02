@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Basic annotations - floor:
     type-annotated function floor which takes a float n as argument
