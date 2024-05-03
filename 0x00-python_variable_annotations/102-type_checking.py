@@ -20,7 +20,7 @@ zoom_3x = zoom_array(array, 3.0)
 from typing import Tuple, List, Any
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> List:
+def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> List[Any]:
     """
     zoom_array: Function to zoom in an array by repeating each element
     a given number of times.
