@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 """
-This script defines a function safe_first_element that returns the first
-element of a sequence safely, or None if the sequence is empty.
+add type annotations to the function
+
+Hint: look into TypeVar
+
+def safely_get_value(dct, key, default = None):
+    if key in dct:
+        return dct[key]
+    else:
+        return default
 """
 from typing import Sequence, Any, Union
 
 
-def safe_first_element(lst: Sequence) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     safe_first_element: function that returns the first element of a
     sequence safely, or None if the sequence is empty.
