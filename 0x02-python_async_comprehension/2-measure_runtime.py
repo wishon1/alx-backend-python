@@ -8,6 +8,7 @@ Notice that the total runtime is roughly 10 seconds, explain it to yourself.
 """
 import asyncio
 import time
+from importlib import import_module as using
 
 async_comp = __import__('1-async_comprehension').async_comprehension
 
@@ -24,6 +25,7 @@ async def measure_runtime() -> float:
     """
     startTime = time.time()
 
-    await asyncio.gather(*(async_comp() for n_time in range(4)))
+    await asyncio.gather(*(async_comp() for _ in range(4)))
 
-    end_time = time.time()
+    end_time = time.time() - startTime
+    return end_time
