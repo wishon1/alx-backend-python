@@ -33,9 +33,9 @@ Execute your tests with
 - Common testing patterns such as mocking, parametrizations and fixtures
 
 ### Required Files
-[utils.py](github.com/wishon1/alx-backend-python/0x03-Unittests_and_integration_tests/utils.py)
-[client.py](0x03-Unittests_and_integration_tests/client.py)
-[fixtures.py](github.com/wishon1/alx-backend-python/0x03-Unittests_and_integration_tests/fixtures.py)
+[utils.py](https://github.com/wishon1/alx-backend-python/blob/main/0x03-Unittests_and_integration_tests/util.py)
+[client.py](https://github.com/wishon1/alx-backend-python/blob/main/0x03-Unittests_and_integration_tests/client.py)
+[fixtures.py](https://github.com/wishon1/alx-backend-python/blob/main/0x03-Unittests_and_integration_tests/fixtures.py)
 
 ### Tasks
 0. Parameterize a unit test
