@@ -34,7 +34,7 @@ Execute your tests with
 
 ### Required Files
 [utils.py](github.com/wishon1/alx-backend-python/0x03-Unittests_and_integration_tests/utils.py)
-[client.py](github.com/wishon1/alx-backend-python/0x03-Unittests_and_integration_tests/client.py)
+[client.py](0x03-Unittests_and_integration_tests/client.py)
 [fixtures.py](github.com/wishon1/alx-backend-python/0x03-Unittests_and_integration_tests/fixtures.py)
 
 ### Tasks
